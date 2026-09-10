@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Bridge Base 2 PBN",
+  "version": "1.0",
+  "description": "Run the Bridge Base to PBN script on the active Bridge Base tab.",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_title": "Run Bridge Base 2 PBN"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
